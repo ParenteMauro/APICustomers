@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CustomerApi.CasosDeUsos;
+using CustomerApi.Repositories;
+using Microsoft.AspNetCore.Mvc;
 using WebApplication2.Dtos;
 
 namespace WebApplication2.Controllers
@@ -8,51 +10,73 @@ namespace WebApplication2.Controllers
     public class CustomerController : Controller
     {
 
+        private readonly CustomerDataBaseContext _customerDataBaseContext;
+        
+        private readonly IUpdateCustomerUseCase _updateCustomerUseCase;
+
+        public CustomerController(CustomerDataBaseContext customerDataBaseContext, IUpdateCustomerUseCase updateCustomerUseCase)
+        {
+            _customerDataBaseContext = customerDataBaseContext;
+            _updateCustomerUseCase = updateCustomerUseCase;
+        }
+        
+            
+
+            
+
 
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(CustomerDto))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetCustomer(long id)
         {
-            var vacio = new CustomerDto();
+            CustomerEntity customer = await _customerDataBaseContext.Get(id);
 
-            return new OkObjectResult(vacio);
+            return new OkObjectResult(customer.ToDto());
             
         }
 
         [HttpGet]
-        
-        public async Task<List<CustomerDto>> GetCustomers()
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<CustomerDto>))]
+        public async Task<IActionResult> GetCustomers()
         {
-            throw new NotImplementedException();
+            List<CustomerDto> listCustomers =  _customerDataBaseContext.Customer.Select(customer=>customer.ToDto()).ToList();
+
+            return new OkObjectResult(listCustomers);
 
         }
 
         [HttpDelete("{id}")]
-
-        public async Task<bool> DeleteCustomer(long id)
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(CustomerDto))]
+        public async Task<IActionResult> DeleteCustomer(long id)
         {
-            throw new NotImplementedException();
+           bool result = await _customerDataBaseContext.Delete(id);
+           return new OkObjectResult(result); 
         }
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(CustomerDto))]
-        
-
+       
         public async Task<IActionResult> CreateCustomer(CreateCustomerDto customer)
         {
-            var vacio = new CustomerDto();
+            CustomerEntity result =  await _customerDataBaseContext.Add(customer);
 
-            return new CreatedResult($"https://localhost:7180/api/customer/{vacio.Id}", null);
+            0return new CreatedResult($"https://localhost:7180/api/customer/{result.Id}", null);
 
-            //throw new NotImplementedException();
         }
 
         [HttpPut]
-
-        public async Task<CustomerDto> UpdateCustomer(CustomerDto customer)
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(CustomerDto))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> UpdateCustomer(CustomerDto customer)
         {
-            throw new NotImplementedException();
+            CustomerDto? result = await _updateCustomerUseCase.Execute(customer);
+            if(result == null)
+            {
+                return new NotFoundResult();
+            }
+
+            return new OkObjectResult(result);
         }
     }
 }

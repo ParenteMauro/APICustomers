@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\repositories\\customerdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\repositories\\customerdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\casosdeusos\\updatecustomerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\casosdeusos\\updatecustomerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\dtos\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\dtos\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|c:\\users\\mauro\\desktop\\asp.net_core\\webapplication2\\dtos\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75DB0785-C1BB-4C3F-BFDE-198E12530B9D}|WebApplication2\\CustomerApi.csproj|solutionrelative:webapplication2\\dtos\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateCustomerUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\CasosDeUsos\\UpdateCustomerUseCase.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\CasosDeUsos\\UpdateCustomerUseCase.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\CasosDeUsos\\UpdateCustomerUseCase.cs",
+              "RelativeToolTip": "WebApplication2\\CasosDeUsos\\UpdateCustomerUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T18:02:20.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication2\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication2\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T17:13:03.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication2\\appsettings.json",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "WebApplication2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T16:57:32.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CustomerDataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Repositories\\CustomerDataBaseContext.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Repositories\\CustomerDataBaseContext.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Repositories\\CustomerDataBaseContext.cs",
+              "RelativeToolTip": "WebApplication2\\Repositories\\CustomerDataBaseContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T02:20:52.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Program.cs",
               "RelativeToolTip": "WebApplication2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:43:34.877Z"
+              "WhenOpened": "2025-02-03T22:43:34.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "CreateCustomerDto.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Dtos\\CreateCustomerDto.cs",
               "RelativeDocumentMoniker": "WebApplication2\\Dtos\\CreateCustomerDto.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Dtos\\CreateCustomerDto.cs",
               "RelativeToolTip": "WebApplication2\\Dtos\\CreateCustomerDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:40:34.824Z"
+              "WhenOpened": "2025-02-03T22:40:34.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CustomerDto.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Dtos\\CustomerDto.cs",
               "RelativeDocumentMoniker": "WebApplication2\\Dtos\\CustomerDto.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Dtos\\CustomerDto.cs",
               "RelativeToolTip": "WebApplication2\\Dtos\\CustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T22:26:52.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "WebApplication2\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\ASP.NET_CORE\\WebApplication2\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "WebApplication2\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:17:03.637Z"
+              "WhenOpened": "2025-02-03T22:17:03.637Z",
+              "EditorCaption": ""
             }
           ]
         }
